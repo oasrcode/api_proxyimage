@@ -41,7 +41,7 @@ app.get("/image", function (req, res) {
       }
     })
     .catch((error) => {
-      console.error("Error al bsucar iamgen", error.message);
+      console.error("Error al buscar iamgen", error.message);
       sendDefaultImageUrl(res);
     });
 });
@@ -52,5 +52,5 @@ function sendDefaultImageUrl(res) {
 
 const port = process.env.PORT || 10000;
 app.listen(port, () => {
-  console.log(`Server running on port ${port}`);
+  console.log(`Servidor corriendo en puerto ${port}`);
 });
