@@ -3,7 +3,7 @@ const axios = require("axios");
 const dotenv = require("dotenv");
 const cors = require("cors");
 const helmet = require("helmet");
-const morgan = require("morgan");
+
 
 dotenv.config();
 
@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({ origin: "*", methods: "*" }));
 app.use(helmet());
-app.use(morgan("combined"));
+
 
 const allowedMimeTypes = [
   "image/jpeg",
