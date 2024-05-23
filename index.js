@@ -41,7 +41,7 @@ app.get("/image", function (req, res) {
       }
     })
     .catch((error) => {
-      console.error("Error al buscar iamgen", error.message);
+      console.error("Error al buscar imagen", error.message);
       sendDefaultImageUrl(res);
     });
 });
