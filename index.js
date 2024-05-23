@@ -12,7 +12,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({ origin: "*", methods: "*" }));
 app.use(helmet());
-app.use(morgan(":method =>  | :response-time ms | :url"));
+app.use(morgan("combined"));
 
 const allowedMimeTypes = [
   "image/jpeg",
@@ -23,6 +23,7 @@ const allowedMimeTypes = [
   "image/bmp",
   "image/webp",
   "image/svg+xml",
+  "binary/octet-stream"
 ];
 const defaultImageUrl = "rutadelaimagenenassetsdeangular";
 
