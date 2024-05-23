@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "proxy para recuperar imagenes de zamakona.qasic.es",
   "main": "index.js",
+  "keywords": ["node v20.11.1"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node index.js"
