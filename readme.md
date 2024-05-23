@@ -21,7 +21,6 @@ El servicio proporciona una API RESTful para recuperar imágenes. Aquí está el
 * [dotenv](https://www.npmjs.com/package/dotenv): Para cargar variables de entorno desde un archivo `.env`.
 * [express](https://www.npmjs.com/package/express): Marco de aplicación web para Node.js.
 * [helmet](https://www.npmjs.com/package/helmet): Middleware para establecer varios encabezados HTTP para la seguridad.
-* [http-status-codes](https://www.npmjs.com/package/http-status-codes): Para usar códigos de estado HTTP predefinidos.
 * [morgan](https://www.npmjs.com/package/morgan): Middleware para registrar solicitudes HTTP.
 
 ## Autor
