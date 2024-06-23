@@ -25,7 +25,7 @@ const allowedMimeTypes = [
   "image/svg+xml",
   "binary/octet-stream"
 ];
-const defaultImageUrl = "rutadelaimagenenassetsdeangular";
+const defaultImageUrl = "DefaultImagePath";
 
 app.get("/image", function (req, res) {
   const url = req.query.url;
