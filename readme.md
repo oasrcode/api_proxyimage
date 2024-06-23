@@ -1,8 +1,8 @@
-# sb_proxyimage_api
+# Api_proxyimage
 
 ## Descripción
 
-`sb_proxyimage_api` es un servicio proxy diseñado para recuperar imágenes  y servirlas a través de una API RESTful.
+`Api_proxyimage` es un servicio proxy diseñado para recuperar imágenes  y servirlas a través de una API RESTful.
 
 ## Uso
 
