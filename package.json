@@ -1,7 +1,7 @@
 {
-  "name": "sb_proxyimage_api",
+  "name": "Api_proxyimage",
   "version": "1.0.0",
-  "description": "proxy para recuperar imagenes de zamakona.qasic.es",
+  "description": "proxy para recuperar imagenes",
   "main": "index.js",
   "keywords": [
     "node v20.11.1"
