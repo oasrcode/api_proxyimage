@@ -22,11 +22,3 @@ El servicio proporciona una API RESTful para recuperar imágenes. Aquí está el
 * [express](https://www.npmjs.com/package/express): Marco de aplicación web para Node.js.
 * [helmet](https://www.npmjs.com/package/helmet): Middleware para establecer varios encabezados HTTP para la seguridad.
 * [morgan](https://www.npmjs.com/package/morgan): Middleware para registrar solicitudes HTTP.
-
-## Autor
-
-* Nombre: [asantana@tcsa.es]()
-
-## Licencia
-
-Este proyecto está licenciado bajo la Licencia ISC.
