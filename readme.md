@@ -2,7 +2,7 @@
 
 ## Descripción
 
-`sb_proxyimage_api` es un servicio proxy diseñado para recuperar imágenes de zamakona.qasic.es y servirlas a través de una API RESTful.
+`sb_proxyimage_api` es un servicio proxy diseñado para recuperar imágenes  y servirlas a través de una API RESTful.
 
 ## Uso
 
@@ -16,7 +16,7 @@ El servicio proporciona una API RESTful para recuperar imágenes. Aquí está el
 
 ## Dependencias
 
-* [axios](https://www.npmjs.com/package/axios): Para realizar solicitudes HTTP a zamakona.qasic.es.
+* [axios](https://www.npmjs.com/package/axios): Para realizar solicitudes HTTP de la imagen.
 * [cors](https://www.npmjs.com/package/cors): Middleware para habilitar el CORS (Cross-Origin Resource Sharing).
 * [dotenv](https://www.npmjs.com/package/dotenv): Para cargar variables de entorno desde un archivo `.env`.
 * [express](https://www.npmjs.com/package/express): Marco de aplicación web para Node.js.
